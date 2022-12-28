@@ -21,6 +21,7 @@
       src="https://kit.fontawesome.com/63a0ca00d7.js"
       crossorigin="anonymous"
     ></script>
+    <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
     <link rel="stylesheet" href="src/style.css" />
     <title>Weather app</title>
   </head>
@@ -29,25 +30,26 @@
       <div class="weather-app-wrapper">
         <div class="weather-app">
           <div class="overview">
-            <h1>Seattle</h1>
+            <h1 id="city"></h1>
             <ul>
               <li>Friday 5:00</li>
-              <li>Showers</li>
+              <li id="description"></li>
             </ul>
           </div>
           <div class="row">
             <div class="col-6">
               <div class="weather-temperature">
                 <i class="fa-solid fa-cloud-rain icon-showers"></i>
-                <span class="temperature">9</span>
-                <span class="units">°C |<a href="#" class="fahrenheit">°F</a> </span>
+                <span class="temperature" id="temperature"></span>
+                <span class="units"
+                  >°C |<a href="#" class="fahrenheit">°F</a>
+                </span>
               </div>
             </div>
             <div class="col-6">
               <ul class="weather-elements">
-                <li>Precipitation: 60%</li>
-                <li>Humidity: 87%</li>
-                <li>Wind: 23km/h</li>
+                <li>Humidity: <span id="humidity"></span>%</li>
+                <li>Wind: <span id="wind"></span>km/h</li>
               </ul>
             </div>
           </div>
