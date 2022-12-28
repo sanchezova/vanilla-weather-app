@@ -21,6 +21,8 @@ li {
   font-size: 16px;
   font-weight: 200;
   line-height: 19px;
+}
+li:first-letter {
   text-transform: capitalize;
 }
 .weather-app-wrapper {
@@ -35,19 +37,19 @@ li {
 .overview {
   margin-bottom: 20px;
 }
-.weather-temperature .icon-showers {
-  margin-right: 10px;
-  font-size: 40px;
-  color: #74c0fc;
+.weather-temperature img {
+  position: relative;
+  margin-left: -10px;
+  bottom: 20px;
+  width: 100px;
 }
 .weather-temperature .temperature {
-  font-size: 50px;
-  line-height: 1;
+  font-size: 60px;
   font-weight: 500;
 }
 .weather-temperature .units {
   position: relative;
-  top: -17px;
+  top: -30px;
   font-size: 16px;
 }
 .weather-temperature .fahrenheit {
@@ -55,5 +57,5 @@ li {
 }
 .weather-elements {
   position: relative;
-  bottom: -6px;
+  bottom: -18px;
 }
