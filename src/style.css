@@ -49,15 +49,20 @@ li:first-letter {
 .weather-temperature .temperature {
   font-size: 60px;
   font-weight: 500;
+  position: relative;
+  bottom: 6px;
 }
-.weather-temperature .units {
+.weather-temperature .units a {
   position: relative;
   top: -30px;
   font-size: 16px;
-}
-.weather-temperature .fahrenheit {
   text-decoration: none;
 }
+.weather-temperature .active {
+  cursor: default;
+  color: black;
+}
+
 .weather-elements {
   position: relative;
   bottom: -18px;
