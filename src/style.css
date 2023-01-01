@@ -28,6 +28,7 @@ li:first-letter {
 small a {
   text-decoration: none;
 }
+
 .weather-app-wrapper {
   max-width: 600px;
   margin: 30px auto;
@@ -69,4 +70,12 @@ small a {
 .weather-elements {
   position: relative;
   bottom: -18px;
+}
+.name {
+  color: black;
+  font-weight: bold;
+}
+.information {
+  font-size: 12px;
+  opacity: 0.7;
 }
