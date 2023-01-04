@@ -17,10 +17,7 @@
       integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
       crossorigin="anonymous"
     />
-    <script
-      src="https://kit.fontawesome.com/63a0ca00d7.js"
-      crossorigin="anonymous"
-    ></script>
+
     <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
     <link rel="stylesheet" href="src/style.css" />
     <title>Weather app</title>
@@ -76,6 +73,21 @@
                 <li>Humidity: <span id="humidity"></span>%</li>
                 <li>Wind: <span id="wind"></span>km/h</li>
               </ul>
+            </div>
+          </div>
+          <div class="weather-forecast">
+            <div class="row">
+              <div class="col-2">
+                <div class="weather-forecast-date">Wed</div>
+                <img
+                  src="https://shecodes-assets.s3.amazonaws.com/api/weather/icons/few-clouds-day.png"
+                  width="54"
+                />
+                <div class="weather-forecast-temperature">
+                  <span class="weather-forecast-temperature-max"> 8° </span>
+                  <span class="weather-forecast-temperature-min"> 6° </span>
+                </div>
+              </div>
             </div>
           </div>
         </div>

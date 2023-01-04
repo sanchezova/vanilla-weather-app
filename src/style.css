@@ -47,7 +47,7 @@ small a {
 .weather-temperature img {
   position: relative;
   margin-left: -10px;
-  bottom: 20px;
+  bottom: 25px;
   width: 100px;
 }
 .weather-temperature .temperature {
@@ -61,15 +61,30 @@ small a {
   top: -30px;
   font-size: 16px;
   text-decoration: none;
+  cursor: default;
 }
 .weather-temperature .active {
-  cursor: default;
   color: black;
 }
 
 .weather-elements {
   position: relative;
   bottom: -18px;
+}
+.weather-forecast {
+  margin-top: 20px;
+  text-align: center;
+}
+.weather-forecast-date {
+  font-size: 16px;
+  color: black;
+}
+.weather-forecast-temperature {
+  font-size: 15px;
+  color: black;
+}
+.weather-forecast-temperature-min {
+  opacity: 0.8;
 }
 .name {
   color: black;
