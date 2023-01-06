@@ -56,15 +56,12 @@ small a {
   position: relative;
   bottom: 6px;
 }
-.weather-temperature .units a {
+.weather-temperature .units {
   position: relative;
   top: -30px;
   font-size: 16px;
   text-decoration: none;
   cursor: default;
-}
-.weather-temperature .active {
-  color: black;
 }
 
 .weather-elements {
